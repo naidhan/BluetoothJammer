@@ -1,5 +1,5 @@
 # BluetoothJammer (WIP)
-Jam/DoS your neighbour's bluetooth speaker/devices for peace!
+Jam/ DoS your neighbour's bluetooth speaker/devices for peace!
 
 # Preview
 <table style="padding:10px">
