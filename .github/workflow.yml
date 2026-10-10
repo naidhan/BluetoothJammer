@@ -1,13 +1,13 @@
 name: Build Android APK
 
 on:
-  workflow_dispatch: # Allows you to manually trigger the build
+  push: # This makes it build instantly when you save a change
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    steps:
+ steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
